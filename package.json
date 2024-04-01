@@ -1,0 +1,19 @@
+{
+  "name": "cypress-testing-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:test": "npx cypress run --browser chrome",
+    "cy:run": "npx cypress run --headed --browser edge"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  },
+  "dependencies": {
+    "D": "^1.0.0",
+    "xlsx": "^0.18.5"
+  }
+}
